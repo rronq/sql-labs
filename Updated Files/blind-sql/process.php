@@ -1,8 +1,8 @@
 <?php
 // Database connection details
 $servername = "localhost";
-$username = "dvwa";
-$password = "p@ssw0rd";
+$username = "root";
+$password = "";
 $dbname = "dvwa"; // Replace with your actual database name
 
 try {
