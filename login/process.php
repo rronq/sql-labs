@@ -4,15 +4,13 @@ error_reporting(0);
 
 // Database connection details
 $servername = "localhost";
-$username = "dvwa";
-$password = "p@ssw0rd";
+$username = "root";
+$password = "";
 $dbname = "dvwa"; // Replace with your actual database name
 
 try {
-    // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Check connection
     if ($conn->connect_error) {
         throw new Exception("Connection failed: " . $conn->connect_error);
     }
